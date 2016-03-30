@@ -4,7 +4,7 @@
 
 	<groupId>joda-time</groupId>
 	<artifactId>joda-time-mybatis</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>mcbeelen-1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>mybatis integration for joda time framework</name>

@@ -51,7 +51,7 @@ public class LocalDateTypeHandler implements TypeHandler
         Date date = rs.getDate(columnName);
         if (date != null)
         {
-            return new LocalDate(date.getTime(), DateTimeZone.UTC);
+            return new LocalDate(date.getTime(), DateTimeZone.getDefault());
         }
         else
         {
@@ -67,7 +67,7 @@ public class LocalDateTypeHandler implements TypeHandler
         Date date = cs.getDate(columnIndex);
         if (date != null)
         {
-            return new LocalDate(date.getTime(), DateTimeZone.UTC);
+            return new LocalDate(date.getTime(), DateTimeZone.getDefault());
         }
         else
         {
